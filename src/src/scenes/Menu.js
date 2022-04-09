@@ -1,11 +1,9 @@
-console.log("Hello from menu");
-
 class Menu extends Phaser.Scene {
     constructor() {
-        super("menu");
+        super("menuScene");
     }
 
     create() {
-        this.add.text(20, 20, "menu goes here");
+        this.add.text(20, 20, "Rocket Patrol Menu");
     }
 }
